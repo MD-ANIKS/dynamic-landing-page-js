@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+#time {
+  font-size: 4rem;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 100;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: 100;
+  margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  #time {
+    font-size: 3.3rem;
+  }
+  h1 {
+    font-size: 21px;
+  }
+  h2 {
+    font-size: 14px;
+  }
+}
